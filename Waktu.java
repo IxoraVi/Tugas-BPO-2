@@ -1,7 +1,11 @@
+import java.util.Scanner;
 public class Waktu{
 	public static void main(String[] args){
 		int detik, menit, jam, sisa1,sisa2;
-		detik = 5000;
+		Scanner Waktu = new Scanner(System.in);
+		
+		System.out.print("Masukkan Jumlah Detik = ");
+		detik = Waktu.nextInt();
 	
 		jam = detik/3600;
 		sisa1 = detik%3600;
